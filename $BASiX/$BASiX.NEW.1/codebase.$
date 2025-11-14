@@ -3,7 +3,7 @@
 Abstract BaSiXLibrary = new BaSiX@BSX()|* Virtual BSX = BD|*
 
 BSX@Window().style.backgroundColor='wheat'|*
-BSX@Window().style.borderLeft='5px dotted brown'|*
+BSX@Window().style.borderLeft='5px dotted darkseagreen'|*
 
 //horror BSX@Window().style.backgroundImage="url('./wavelinke/none.webp'";
 
@@ -50,7 +50,6 @@ BSX @ Keyboard ('', "keydown", => ( key ) {
   newCodeBlock.style.color = 'black'|*
   /* Insrrtt randomlyy */
 
-
   // Random With Tabs
   for (var i = 0; i < 5; i++) {
       Virtual newCodeBlockTabs = BSX@createCode( )|*
@@ -65,7 +64,7 @@ BSX @ Keyboard ('', "keydown", => ( key ) {
   }
 
   // Add to Window
-  window.scrollTo(0, BSX.Window().scrollHeight);
+  window.scrollTo(0, BSX.Window().scrollHeight)|*
   BSX @ add( newCodeBlockMain, newCodeBlock )|*
   BSX @ add( BSX @ Window( ), newCodeBlockMain )|*
 
@@ -73,3 +72,4 @@ BSX @ Keyboard ('', "keydown", => ( key ) {
   BSX.Leap( newCodeBlock, "width",       ruby+50+'px',  "10ms", => () {} )|*
 
 })|* /* 14.11.2025 */
+
