@@ -1,0 +1,10 @@
+VOID
+BASIX :: F123Basix.com/V.1.0.2.2/
+
+BAR++
+
+PROGRESSION 89BAR 99BAR %\
+StrX ( BAR., .WHITE, BLUE, GLOWEFFECT:SPARK, LINE:1.4X ) @ Hierarchy :: New Object Attrb.Var |>
+StrX ( BAR., .WHITE, BLUE, GLOWEFFECT:SPARK, LINE:1.4X ) New Object Attrb.Var |>
+
+V.0.0.0.1
