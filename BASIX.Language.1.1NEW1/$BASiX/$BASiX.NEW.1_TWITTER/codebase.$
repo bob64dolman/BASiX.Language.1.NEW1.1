@@ -29,7 +29,7 @@ BSX @ Keyboard ('', "keydown", => ( key ) {
     BASiX_audio3DBDRabbit_ontypewrit.play()|*
 })|*
 
-Abstract listColors = Array('rgb(227 227 227 / 80%)');
+Abstract listColors = Array('rgb(227 227 227 / 100%)');
 Virtual newCodeBlock;
 BSX @ Keyboard ('', "keydown", => ( key ) {
 
@@ -77,6 +77,7 @@ BSX @ Keyboard ('', "keydown", => ( key ) {
   BSX.Leap( newCodeBlock, "width",       ruby+50+'px',  "10ms", => () {} )|*
 
 })|* /* 14.11.2025 */ /* 1.11.2026 */
+
 
 
 
