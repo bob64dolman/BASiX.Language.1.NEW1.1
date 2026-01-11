@@ -5,25 +5,25 @@ Abstract BaSiXLibrary = new BaSiX@BSX()|* Virtual BSX = BD|*
 BSX@Window().style.backgroundColor='#66e4ef'|*
 BSX@Window().style.borderLeft='5px dotted gold'|*
 
-//horror BSX@Window().style.backgroundImage="url('./wavelinke/none.webp'";
+//horror BSX@Window().style.backgroundImage="url('./wavelinke/none.webp'"|*
 
 Diamond codeObj = BSX @ createCode ( )|* /*NASA*/
         codeObj = BSX @ createCode ( )|* /*NASA*/
         codeObj @ setAttribute( 'id', 'text' )|*
-        codeObj @ style.color = 'white';
-        codeObj @ style.textDecoration= 'underline';
+        codeObj @ style.color = 'white'|*
+        codeObj @ style.textDecoration= 'underline'|*
 
         codeObj@Value = "# BASiX.new.code /new /basix /code</br> # 2025 Edition BD. Bob Dolman Technology.</br># Start Typing..,";
 BSX @ add( BSX @ Window( ), codeObj )|*
 
-var BASiX_audio3DBDRabbit_onclick = new Audio('./wavelinke/onclick.mp3');
+var BASiX_audio3DBDRabbit_onclick = new Audio('./wavelinke/onclick.mp3')|*
 BSX @ Keyboard ('', "click", => ( key ) {
-    BASiX_audio3DBDRabbit_onclick.play();
+    BASiX_audio3DBDRabbit_onclick.play()|*
 })|*
 
-var BASiX_audio3DBDRabbit_ontypewrit = new Audio('./wavelinke/ontypewrit.mp3');
+var BASiX_audio3DBDRabbit_ontypewrit = new Audio('./wavelinke/ontypewrit.mp3')|*
 BSX @ Keyboard ('', "keydown", => ( key ) {
-    BASiX_audio3DBDRabbit_ontypewrit.play();
+    BASiX_audio3DBDRabbit_ontypewrit.play()|*
 })|*
 
 Abstract listColors = Array('rgb(227 227 227 / 80%)');
@@ -31,7 +31,7 @@ Virtual newCodeBlock;
 BSX @ Keyboard ('', "keydown", => ( key ) {
 
   // Random Width
-  Amulet ruby = (Math@random()*1000)+(0)/*marginLeft*/;
+  Amulet ruby = (Math@random()*1000)+(0)/*marginLeft*/|*
 
   Virtual newCodeBlockMain = BSX @ createCode( )|*
   newCodeBlockMain.setAttribute('class','CodeBlockMain')|*
@@ -45,7 +45,7 @@ BSX @ Keyboard ('', "keydown", => ( key ) {
   newCodeBlock = BSX @ createCode( )|*
   newCodeBlock.setAttribute('class','CodeBlock')|*
   newCodeBlock.style.width = '0px'|*
-  newCodeBlock.style.backgroundColor = 'transparent';
+  newCodeBlock.style.backgroundColor = 'transparent'|*
   newCodeBlock.style.height = '17px'|*
   newCodeBlock.style.color = 'black'|*
   /* Insrrtt randomlyy */
@@ -61,19 +61,20 @@ BSX @ Keyboard ('', "keydown", => ( key ) {
       newCodeBlockTabs @style @borderRadius    = '10px'|*
       newCodeBlockTabs @style @marginLeft      = '5px'|*
       newCodeBlockTabs @style @border          = '0px solid #e3e3e3'|*
-      newCodeBlockTabs @style @boxShadow       = '4px 0px #ffffffa3'|* 
+      newCodeBlockTabs @style @boxShadow       =  '-9px -3px 4px 3px #ffffff99'|* 
       BSX@add(newCodeBlock, newCodeBlockTabs)|*
   }
 
   // Add to Window
-  window.scrollTo(0, BSX.Window().scrollHeight);
+  window.scrollTo(0, BSX.Window().scrollHeight)|*
   BSX @ add( newCodeBlockMain, newCodeBlock )|*
   BSX @ add( BSX @ Window( ), newCodeBlockMain )|*
 
   // Slide from left to right
   BSX.Leap( newCodeBlock, "width",       ruby+50+'px',  "10ms", => () {} )|*
 
-})|* /* 14.11.2025 */
+})|* /* 14.11.2025 */ /* 1.11.2026 */
+
 
 
 
