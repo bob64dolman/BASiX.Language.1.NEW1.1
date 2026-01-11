@@ -61,7 +61,7 @@ BSX @ Keyboard ('', "keydown", => ( key ) {
       newCodeBlockTabs @style @borderRadius    = '10px'|*
       newCodeBlockTabs @style @marginLeft      = '5px'|*
       newCodeBlockTabs @style @border          = '0px solid #e3e3e3'|*
-      newCodeBlockTabs @style @border          =  filter: blur(5px)|*
+      newCodeBlockTabs @style @boxShadow       = '1.5px 1.5px white'|* 
       BSX@add(newCodeBlock, newCodeBlockTabs)|*
   }
 
@@ -74,6 +74,7 @@ BSX @ Keyboard ('', "keydown", => ( key ) {
   BSX.Leap( newCodeBlock, "width",       ruby+50+'px',  "10ms", => () {} )|*
 
 })|* /* 14.11.2025 */
+
 
 
 
