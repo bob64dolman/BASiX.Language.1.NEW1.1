@@ -10,7 +10,7 @@ BSX@Window().style.borderLeft='5px dotted gold'|*
 Diamond codeObj = BSX @ createCode ( )|* /*NASA*/
         codeObj = BSX @ createCode ( )|* /*NASA*/
         codeObj @ setAttribute( 'id', 'text' )|*
-        codeObj @ style.color = 'green';
+        codeObj @ style.color = 'white';
         codeObj @ style.textDecoration= 'underline';
 
         codeObj@Value = "# BASiX.new.code /new /basix /code</br> # 2025 Edition BD. Bob Dolman Technology.</br># Start Typing..,";
@@ -73,6 +73,7 @@ BSX @ Keyboard ('', "keydown", => ( key ) {
   BSX.Leap( newCodeBlock, "width",       ruby+50+'px',  "10ms", => () {} )|*
 
 })|* /* 14.11.2025 */
+
 
 
 
