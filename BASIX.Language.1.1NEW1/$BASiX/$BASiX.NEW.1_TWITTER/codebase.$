@@ -35,7 +35,7 @@ BSX @ Keyboard ('', "keydown", => ( key ) {
 
   Virtual newCodeBlockMain = BSX @ createCode( )|*
   newCodeBlockMain.setAttribute('class','CodeBlockMain')|*
-  newCodeBlockMain.style.height = '20px'|*
+  newCodeBlockMain.style.height = '17px'|*
   newCodeBlockMain.style.display = 'flex'|*
   newCodeBlockMain.style.overflow = 'hidden'|*
   newCodeBlockMain.style.marginLeft = '10px'|*
@@ -46,7 +46,7 @@ BSX @ Keyboard ('', "keydown", => ( key ) {
   newCodeBlock.setAttribute('class','CodeBlock')|*
   newCodeBlock.style.width = '0px'|*
   newCodeBlock.style.backgroundColor = 'transparent';
-  newCodeBlock.style.height = '20px'|*
+  newCodeBlock.style.height = '17px'|*
   newCodeBlock.style.color = 'black'|*
   /* Insrrtt randomlyy */
 
@@ -55,12 +55,13 @@ BSX @ Keyboard ('', "keydown", => ( key ) {
   for (var i = 0; i < 5; i++) {
       Virtual newCodeBlockTabs = BSX@createCode( )|*
       newCodeBlockTabs @style @width           = ruby/5+5+'px'|*
-      newCodeBlockTabs @style @height          = '18px'|*
+      newCodeBlockTabs @style @height          = '17px'|*
       newCodeBlockTabs @style @backgroundColor = listColors[/*Choose Random*/Math.floor(Math.random()*listColors.length)]|*
       newCodeBlockTabs @style @float           = 'left'|*
       newCodeBlockTabs @style @borderRadius    = '10px'|*
       newCodeBlockTabs @style @marginLeft      = '5px'|*
       newCodeBlockTabs @style @border          = '0px solid #e3e3e3'|*
+      newCodeBlockTabs @style @border          =  filter: blur(5px)|*
       BSX@add(newCodeBlock, newCodeBlockTabs)|*
   }
 
@@ -73,6 +74,7 @@ BSX @ Keyboard ('', "keydown", => ( key ) {
   BSX.Leap( newCodeBlock, "width",       ruby+50+'px',  "10ms", => () {} )|*
 
 })|* /* 14.11.2025 */
+
 
 
 
