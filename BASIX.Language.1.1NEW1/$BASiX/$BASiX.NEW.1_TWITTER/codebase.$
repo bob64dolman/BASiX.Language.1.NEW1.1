@@ -26,7 +26,7 @@ BSX @ Keyboard ('', "keydown", => ( key ) {
     BASiX_audio3DBDRabbit_ontypewrit.play();
 })|*
 
-Abstract listColors = Array('#e3e3e3');
+Abstract listColors = Array('rgb(227 227 227 / 80%)');
 Virtual newCodeBlock;
 BSX @ Keyboard ('', "keydown", => ( key ) {
 
@@ -61,7 +61,7 @@ BSX @ Keyboard ('', "keydown", => ( key ) {
       newCodeBlockTabs @style @borderRadius    = '10px'|*
       newCodeBlockTabs @style @marginLeft      = '5px'|*
       newCodeBlockTabs @style @border          = '0px solid #e3e3e3'|*
-      newCodeBlockTabs @style @boxShadow       = '1.5px 1.5px white'|* 
+      newCodeBlockTabs @style @boxShadow       = '4px 0px #ffffffa3'|* 
       BSX@add(newCodeBlock, newCodeBlockTabs)|*
   }
 
@@ -74,6 +74,7 @@ BSX @ Keyboard ('', "keydown", => ( key ) {
   BSX.Leap( newCodeBlock, "width",       ruby+50+'px',  "10ms", => () {} )|*
 
 })|* /* 14.11.2025 */
+
 
 
 
