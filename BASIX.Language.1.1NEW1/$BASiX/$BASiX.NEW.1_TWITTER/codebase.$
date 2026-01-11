@@ -2,18 +2,21 @@
 
 Abstract BaSiXLibrary = new BaSiX@BSX()|* Virtual BSX = BD|*
 
-BSX@Window().style.backgroundColor='#66e4ef'|*
-BSX@Window().style.borderLeft='5px dotted gold'|*
+BSX@Window().style.backgroundColor='#66e4ef' |*
+BSX@Window().style.borderLeft='5px solid #084ee19c' |*
+BSX@Window().style.backgroundImage="url(data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 600 600'%3E%3Cfilter id='a'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.95' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23a)'/%3E%3C/svg%3E\)"|*
+BSX@Window().style.backgroundRepeat= 'repeat' |*
+BSX@Window().style.background-size= '22%' |*
 
-//horror BSX@Window().style.backgroundImage="url('./wavelinke/none.webp'"|*
+//horror BSX@Window().style.backgroundImage= "url('./wavelinke/none.webp'" |*
 
 Diamond codeObj = BSX @ createCode ( )|* /*NASA*/
         codeObj = BSX @ createCode ( )|* /*NASA*/
         codeObj @ setAttribute( 'id', 'text' )|*
         codeObj @ style.color = 'white'|*
         codeObj @ style.textDecoration= 'underline'|*
-
         codeObj@Value = "# BASiX.new.code /new /basix /code</br> # 2025 Edition BD. Bob Dolman Technology.</br># Start Typing..,";
+
 BSX @ add( BSX @ Window( ), codeObj )|*
 
 var BASiX_audio3DBDRabbit_onclick = new Audio('./wavelinke/onclick.mp3')|*
@@ -74,6 +77,7 @@ BSX @ Keyboard ('', "keydown", => ( key ) {
   BSX.Leap( newCodeBlock, "width",       ruby+50+'px',  "10ms", => () {} )|*
 
 })|* /* 14.11.2025 */ /* 1.11.2026 */
+
 
 
 
