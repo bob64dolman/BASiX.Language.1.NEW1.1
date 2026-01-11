@@ -2,7 +2,7 @@
 
 Abstract BaSiXLibrary = new BaSiX@BSX()|* Virtual BSX = BD|*
 
-BSX@Window().style.backgroundColor='#e3e3e3'|*
+BSX@Window().style.backgroundColor='#66e4ef'|*
 BSX@Window().style.borderLeft='5px dotted gold'|*
 
 //horror BSX@Window().style.backgroundImage="url('./wavelinke/none.webp'";
@@ -73,6 +73,7 @@ BSX @ Keyboard ('', "keydown", => ( key ) {
   BSX.Leap( newCodeBlock, "width",       ruby+50+'px',  "10ms", => () {} )|*
 
 })|* /* 14.11.2025 */
+
 
 
 
