@@ -46,12 +46,12 @@ BSX @ Keyboard ('', "keydown", => ( key ) {
   newCodeBlockMain.style.width = ruby+50+'px'|*
   newCodeBlockMain.style.margin = '10px'|*
 
-  newCodeBlock = BSX @ createCode( )|*
+newCodeBlock = BSX @ createCode( )|*
   newCodeBlock.setAttribute('class','CodeBlock')|*
   newCodeBlock.style.width = '0px'|*
   newCodeBlock.style.backgroundColor = 'transparent'|*
   newCodeBlock.style.height = '17px'|*
-  newCodeBlock.style.color = 'black'|*
+  newCodeBlock.style.color = 'deepskyblue'|*
   /* Insrrtt randomlyy */
 
 
@@ -80,6 +80,7 @@ BSX @ Keyboard ('', "keydown", => ( key ) {
   BSX.Leap( newCodeBlock, "width",       ruby+50+'px',  "10ms", => () {} )|*
 
 })|* /* 14.11.2025 */ /* 1.11.2026 */
+
 
 
 
