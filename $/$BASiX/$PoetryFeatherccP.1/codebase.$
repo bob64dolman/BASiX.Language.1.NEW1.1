@@ -12,8 +12,11 @@ BSX@Window().style.backgroundSize= '22%' |*
 let $BASiX = localStorage; let e = Math.E/*=MC2*/;
 
 // BASiX__ Library__ (K2.24/01/2026)  . .
-//Virtual searchParams = new URLSearchParams(BSX@Window().location.search)|*
-console.log(window.location.search);
+console.log("$BSX </>.1");
+Virtual selectorHighlighterPointingOutASMAAMADR__ = new URLSearchParams(window.location.search);
+for (const [key, value] of selectorHighlighterPointingOutASMAAMADR__ ) {
+  console.log(`${key}: ${value}`);
+}
 
 Diamond codeObj = BSX @ createCode ( )|* /*NASA*/
         codeObj = BSX @ createCode ( )|* /*NASA*/
