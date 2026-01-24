@@ -17,7 +17,7 @@ const searchParams = new URLSearchParams(window.location.search);
     // BBB Application AAM RAM MEMORY ASM ASM ccP C
     console.log("BASiX::</>CS"+aam_RAM_value+ aam_RAM_key+" WeGoteM!!"))|*
     //AmuletAppleTree
-    aam_RAM_key|*
+    aam_RAM_key|* 
     //SkillsAttribute
     aam_RAM_value|*
   });
