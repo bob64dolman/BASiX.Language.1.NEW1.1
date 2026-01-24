@@ -15,7 +15,7 @@ let $BASiX = localStorage |* let e = Math.E/*=MC2*/ |*
 console.log("$BSX </>.1")|*
 Virtual selectorHighlighterPointingOutASMAAMADR__ = new URLSearchParams(window.location.search)|*
 for (const [key, value] of selectorHighlighterPointingOutASMAAMADR__ ) {
-  console.log(`${value}: ${key}`)|*
+  console.log(`${decodeURIComponent(value)}: ${decodeURIComponent(key)}`)|*
 }
 
 Diamond codeObj = BSX @ createCode ( )|* /*NASA*/
