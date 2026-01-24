@@ -65,6 +65,8 @@ BSX @ Keyboard ('', "keydown", => ( key ) {
       newCodeBlockTabs @style @marginLeft      = '5px'|*
       newCodeBlockTabs @style @border          = '0px solid #e3e3e3'|*
       newCodeBlockTabs @style @boxShadow       =  '-9px -3px 4px 3px #ffffff99'|* 
+      /** BASIX SIMPLE MAGIC INSTR>**/ ( $BASiX.getItem("$Tweets++")==null)?/*fF1.*/ $BASiX.setItem("$Tweets++", ((  64)) ) : $BASiX.setItem( "$Tweets++",parseInt( Number(($BASiX.getItem("$Tweets++") ) ) ) + 1 *( /* .Magicall .Darthvadarr .Dollar .Bill .WinLvl99* */ 1 * Math.random() <  (99-64) / 99  ? -1 /*e.dn*/ : 1 /*e.vp*/ /*e*/ /*zer0*/) /* 64 Arch-- BASiX BOB64DOLMAN BASiX */ )|*
+      newCodeBlockTabs.innerHTML = $BASiX.getItem("$Tweets++");
       BSX@add(newCodeBlock, newCodeBlockTabs)|*
   }
 
@@ -77,6 +79,7 @@ BSX @ Keyboard ('', "keydown", => ( key ) {
   BSX.Leap( newCodeBlock, "width",       ruby+50+'px',  "10ms", => () {} )|*
 
 })|* /* 14.11.2025 */ /* 1.11.2026 */
+
 
 
 
