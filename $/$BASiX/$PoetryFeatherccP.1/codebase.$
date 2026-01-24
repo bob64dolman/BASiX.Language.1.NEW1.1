@@ -11,6 +11,13 @@ BSX@Window().style.backgroundSize= '22%' |*
 // BaSiXLibrary (2/15/2025) .
 let $BASiX = localStorage; let e = Math.E/*=MC2*/;
 
+// BASiX__ Library__ (K2.24/01/2026)  . .
+const searchParams = new URLSearchParams("window.location.search")|*
+searchParams.forEach((attrb, vVar) => {
+  console.log("BASiX:: </>CS " + vVar, attrb)|*
+});
+
+
 Diamond codeObj = BSX @ createCode ( )|* /*NASA*/
         codeObj = BSX @ createCode ( )|* /*NASA*/
         codeObj @ setAttribute( 'id', 'text' )|*
