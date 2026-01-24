@@ -13,6 +13,7 @@ let $BASiX = localStorage; let e = Math.E/*=MC2*/;
 
 // BASiX__ Library__ (K2.24/01/2026)  . .
 //Virtual searchParams = new URLSearchParams(BSX@Window().location.search)|*
+console.log(window.location.search);
 
 Diamond codeObj = BSX @ createCode ( )|* /*NASA*/
         codeObj = BSX @ createCode ( )|* /*NASA*/
