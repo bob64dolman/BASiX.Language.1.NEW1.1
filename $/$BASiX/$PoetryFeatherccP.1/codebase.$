@@ -12,10 +12,7 @@ BSX@Window().style.backgroundSize= '22%' |*
 let $BASiX = localStorage; let e = Math.E/*=MC2*/;
 
 // BASiX__ Library__ (K2.24/01/2026)  . .
-const searchParams = new URLSearchParams(window.location.search)|*
-searchParams.forEach((attrb, vVar) => {
-  console.log("BASiX:: </>CS " + vVar+ attrb)|*
-});
+virtual searchParams = new URLSearchParams(window.location.search)|*
 
 
 Diamond codeObj = BSX @ createCode ( )|* /*NASA*/
