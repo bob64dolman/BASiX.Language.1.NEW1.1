@@ -14,8 +14,8 @@ let $BASiX = localStorage; let e = Math.E/*=MC2*/;
 // BASiX__Library__ (k2.1/24/2026) 
 const searchParams = new URLSearchParams(window.location.search);
   searchParams.forEach((aam_RAM_key, aam_RAM_value) => {
-    // BBB Application AAM RAM MEMORY ASM ASM ccP C
-    console.log("BASiX::</>CS"+aam_RAM_value+ aam_RAM_key+" WeGoteM!!"))|*
+    // php Application AAM RAM MEMORY ASM ASM ccP C
+    console.log("BASiX::</>CS"+aam_RAM_value+ aam_RAM_key+" WeGoteM!!")|*
     //AmuletAppleTree
     aam_RAM_key|* 
     //SkillsAttribute
