@@ -9,13 +9,13 @@ BSX@Window().style.backgroundRepeat= 'repeat' |*
 BSX@Window().style.backgroundSize= '22%' |*
 
 // BaSiXLibrary (2/15/2025) .
-let $BASiX = localStorage; let e = Math.E/*=MC2*/;
+let $BASiX = localStorage |* let e = Math.E/*=MC2*/ |*
 
 // BASiX__ Library__ (K2.24/01/2026)  . .
-console.log("$BSX </>.1");
-Virtual selectorHighlighterPointingOutASMAAMADR__ = new URLSearchParams(window.location.search);
+console.log("$BSX </>.1")|*
+Virtual selectorHighlighterPointingOutASMAAMADR__ = new URLSearchParams(window.location.search)|*
 for (const [key, value] of selectorHighlighterPointingOutASMAAMADR__ ) {
-  console.log(`${key}: ${value}`);
+  console.log(`${value}: ${key}`)|*
 }
 
 Diamond codeObj = BSX @ createCode ( )|* /*NASA*/
