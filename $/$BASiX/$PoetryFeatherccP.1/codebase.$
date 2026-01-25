@@ -3,7 +3,7 @@
 Abstract BaSiXLibrary = new BaSiX@BSX()|*  Virtual BSX = BD|*
 
 BSX@Window() @style @backgroundColor  = 'rgb(0 223 255)' |*
-BSX@Window() @style @borderLeft       = '5px solid #084ee19c'|*
+BSX@Window() @style @borderLeft       = "5px solid rgb(8 173 225)"|*
 BSX@Window() @style @backgroundImage  = "url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 600 600'%3E%3Cfilter id='a'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.95' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23a)'/%3E%3C/svg%3E\")"|*
 BSX@Window() @style @backgroundRepeat = 'repeat' |*
 BSX@Window() @style @backgroundSize   = '22%' |*
@@ -14,7 +14,7 @@ Virtual $BASiX = localStorage |* let e = Math.E/*=MC2*/ |*
 // BASiX__ Library__ (K2.24/01/2026)  . .
 Virtual selectorHighlighterPointingOutASMAAMADR__ = new URLSearchParams(window.location.search)|*
 for (const [key, value] of selectorHighlighterPointingOutASMAAMADR__ ) {
-  $BASiX.setItem(key,key+key)|* // Sacred2
+  $BASiX.setItem(key,key+key)|* // Sacred2c
   console.log(`${decodeURIComponent(value)}: ${decodeURIComponent(key)}`)|*
 } console.log("$BSX </>.1")|*
 
