@@ -14,7 +14,7 @@ Virtual $BASiX = localStorage |* let e = Math.E/*=MC2*/ |*
 // BASiX__ Library__ (K2.24/01/2026)  . .
 Virtual selectorHighlighterPointingOutASMAAMADR__ = new URLSearchParams(window.location.search)|*
 for (const [key, value] of selectorHighlighterPointingOutASMAAMADR__ ) {
-  $BASiX.setItem(key.split('.', 1)[0], key.split('.', 1)[0])|* // Sacred2c 25/02/2026
+  $BASiX.setItem(key.split('.', 1)[0], key.split('.', 1)[1])|* // Sacred2c 25/02/2026
   console.log(`:${decodeURIComponent(value)}:`)|*
 } console.log("$BSX </>.1")|*
 
