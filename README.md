@@ -60,5 +60,5 @@ dataconsole Attributes
 
 //including new basix websockets
 
-https://gitgotgoggles.com/go :data1243f1:
+https://websockets.gitgotgoggles.com/go :data1243f1:
 
