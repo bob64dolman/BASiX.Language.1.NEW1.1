@@ -44,9 +44,9 @@ https://bob64dolman.github.io/BASiX.Language.1.NEW1.1/$BASiX/$imcodinggg.1/g
 
 <u><i>void</u></i>
 
-basix1
+f123basix
 
-twitter (poetryfeather)
+twitter (PoetryFeather)
 
 
 git:: https:// git.io /boxconsole
@@ -60,5 +60,5 @@ dataconsole Attributes
 
 //including new basix websockets
 
-https://websockets.gitgotgoggles.com/go :data1243f1:
+https://websockets.gitgotgoggles.com/go :data1243f123:
 
